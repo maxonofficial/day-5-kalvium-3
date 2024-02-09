@@ -1,0 +1,27 @@
+/* CSS Inheritance */
+
+
+
+/* Challenge 1: Add style properties to the body, which can be inherited by the child elements of the body. */
+/* properties that would inherited by the child element */
+
+body{
+  color:maroon;
+  direction: rtl;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  font-style:italic;
+  font-variant: small-caps;
+  letter-spacing:5px;
+  text-align: center;
+  word-spacing: 50px;
+}
+
+/* Challenge 2: Add style properties to the body which can not be inherited by the child element of the body */
+/* properties that would not inherited by the child element */
+body{
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 5px solid lightslategrey;
+  padding: 50px;
+}
